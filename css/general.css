@@ -1,0 +1,82 @@
+:root {
+
+  /* Screen resolutions */
+  --desktop: 1440px;
+  --tablet: 744px;
+  --mobile: 375px;
+
+  /* Colors */
+  --white: #FFFFFF;
+  --black: #000000;
+  --gray: #B7B7B7;
+  --lightgray: #DDDDDD;
+  --gold: #D9852C;
+}
+
+/* Typographic */
+
+.txt-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.txt-header-1 {
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.txt-header-2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.txt-header-3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.txt-paragraph {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+.txt-paragraph-s {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  padding: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  outline: 2px white solid;
+  background-color: transparent;
+}
+
+@media (max-width: 640px) {
+  .txt-header-1 {
+    font-size: 50px;
+  }
+  .txt-header-2 {
+    font-size: 24px;
+  }
+  .txt-header-3 {
+    font-size: 20px;
+  }
+  .txt-paragraph {
+    font-size: 16px;
+  }
+}
